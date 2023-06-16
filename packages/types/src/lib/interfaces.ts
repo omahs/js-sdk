@@ -443,7 +443,6 @@ export interface DecryptResponse {
 }
 
 export interface GetSigningShareForDecryptionRequest extends JsonAccsRequest {
-  ciphertext: string;
   dataToEncryptHash: string;
 }
 
