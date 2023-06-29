@@ -159,7 +159,7 @@ The test apps are configured to automatically import all modules and expose all 
 yarn apps
 ```
 
-or runniny individually
+or running individually
 
 ```
 // html
@@ -271,7 +271,7 @@ yarn test:e2e
 
 ### Environments
 
-There are currently three environments can be tested on, each of which can be generated from a custom command, which would automatically import all the libraries in `./packages/*`. The UI of HTML & React are visually identical but they are using different libraries.
+There are currently three environments that can be tested on, each of which can be generated from a custom command, which would automatically import all the libraries in `./packages/*`. The UI of HTML & React are visually identical but they are using different libraries.
 
 | Environment | Generate Command  | Test Location              |
 | ----------- | ----------------- | -------------------------- |
