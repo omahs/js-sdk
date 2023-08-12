@@ -190,7 +190,7 @@ yarn test:e2e
 ## Creating a new library
 
 By default, NX provides a command to generate a library
-`nx generate @nrwl/js:library`. However, it doesn't have an esbuild built-in so that we've created a custom tool that modify the build commands.
+`nx generate @nrwl/js:library`. However, it doesn't have an esbuild built-in so that we've created a custom tool that modifies the build commands.
 
 ```js
 yarn gen:lib <package-name> <tag>
@@ -286,7 +286,7 @@ yarn test:e2e
 
 ### Environments
 
-There are currently three environments can be tested on, each of which can be generated from a custom command, which would automatically import all the libraries in `./packages/*`. The UI of HTML & React are visually identical but they are using different libraries.
+There are currently three environments that can be tested on, each of which can be generated from a custom command, which would automatically import all the libraries in `./packages/*`. The UI of HTML & React are visually identical but they are using different libraries.
 
 | Environment | Generate Command  | Test Location              |
 | ----------- | ----------------- | -------------------------- |
